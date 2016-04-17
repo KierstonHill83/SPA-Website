@@ -7,8 +7,13 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
+  /*font-family: 'Noto Sans', sans-serif;*/
   color: white;
+}
+
+h2 {
+  font-size: 4em;
+  padding-top: 17%;
 }
 
 .name {
@@ -17,29 +22,39 @@ h1 {
   padding-bottom: 50px;
 }
 
-img {
-  height: 450px;
+/*img {
+  height: 460px;
   width: 100%;
   z-index: -1;
   position: absolute;
+}*/
+
+.fa {
+  z-index: 3;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
 }
 
 .back {
   position: relative;
+  margin: auto;
 }
 
 .projectRow {
-  margin-bottom: 449px;
+  margin-bottom: 459px;
 }
 
-.dotBack, .translatorBack, .alliesBack, .todoBack, .mealBack, .warBack {
+.dotBack, .translatorBack, .alliesBack, .todoBack, .mealBack, .warBack, .rockBack {
   background-color: yellow;
   z-index: 1;
-  opacity: 0.7;
-  height: 450px;
+  /*opacity: 0.7;*/
+  height: 460px;
   width: 100%;
   position: absolute;
   padding: 10px;
+  text-align: center;
 }
 
 .dotBack {
@@ -65,3 +80,82 @@ img {
 .warBack {
   background-color: purple;
 }
+
+.rockBack {
+  background-color: red;
+}
+
+.modal-title {
+  font-size: 80px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.modal-image {
+  margin-left: 79px;
+}
+
+.game-info {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.game-technologies {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btns {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/*@-webkit-keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+      
+@keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+
+.back {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;  
+  -webkit-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.back:hover, .back:focus, .back:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+      
+.back:hover:before, .back:focus:before, .back:active:before {
+  -webkit-animation-name: portfolio-img;
+  animation-name: portfolio-img;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}*/
