@@ -62,31 +62,31 @@ img {
 }
 
 .dotBack {
-  background-color: yellow;
+  background-color: #E4E81E;
 }
 
 .translatorBack {
-  background-color: red;
+  background-color: #34E842;;
 }
 
 .alliesBack {
-  background-color: green;
+  background-color: #2597E8;
 }
 
 .todoBack {
-  background-color: blue;
+  background-color: #28E8D9;
 }
 
 .mealBack {
-  background-color: orange;
+  background-color: #E89A12;
 }
 
 .warBack {
-  background-color: purple;
+  background-color: #E83212;
 }
 
 .rockBack {
-  background-color: red;
+  background-color: #7D38E8;
 }
 
 .modal-title {
