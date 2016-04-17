@@ -1,6 +1,7 @@
 body {
   /*padding: 30px;*/
-  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 17px;
   background-color: #4C544B;
 }
@@ -16,26 +17,30 @@ h2 {
   padding-top: 17%;
 }
 
+p {
+  padding: 50px;
+}
+
 .name {
   font-size: 5em;
   font-weight: bold;
   padding-bottom: 50px;
 }
 
-/*img {
+img {
   height: 460px;
   width: 100%;
-  z-index: -1;
+  z-index: 5;
   position: absolute;
-}*/
+}
 
-.fa {
+/*.fa {
   z-index: 3;
   color: white;
   position: absolute;
   text-align: center;
   font-size: 3em;
-}
+}*/
 
 .back {
   position: relative;
@@ -47,7 +52,6 @@ h2 {
 }
 
 .dotBack, .translatorBack, .alliesBack, .todoBack, .mealBack, .warBack, .rockBack {
-  background-color: yellow;
   z-index: 1;
   /*opacity: 0.7;*/
   height: 460px;

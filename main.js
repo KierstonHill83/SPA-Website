@@ -1,11 +1,17 @@
 $(document).on('ready', function() {
   console.log("sanity check");
 
-  
+  $('img').hide();
 
-  // $('.back').hover(function () {
-  //   $('i').show();
-  // });
+  $('#mainDot').mouseenter(function() {
+    $('#dotGame').show();
+  });
+
+  $('#mainDot').mouseleave(function() {
+    $('#dotGame').hide();
+  });
+
+  
 
 });
 
