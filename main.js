@@ -2,6 +2,7 @@ $(document).on('ready', function() {
   console.log("sanity check");
 
   $('img').hide();
+  $('#myPic').show();
 
   // Dot & Boxes Game
   $('#mainDot').mouseenter(function() {
