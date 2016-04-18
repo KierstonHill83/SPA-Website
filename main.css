@@ -3,12 +3,14 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 17px;
   /*background-color: #4C544B;*/
-  background-color: #707570;
+  /*background-color: #707570;*/
+  background-color: #F2F2F2;
 }
 
 h1 {
   text-align: center;
-  color: white;
+  /*color: white;*/
+  color: #06425C;
 }
 
 h2 {
@@ -77,31 +79,38 @@ span {
 }
 
 .dotBack {
-  background-color: #E4E81E;
+  /*background-color: #E4E81E;*/
+  background-color: #814374;
 }
 
 .translatorBack {
-  background-color: #34E842;;
+  /*background-color: #34E842;;*/
+  background-color: #51A39D;
 }
 
 .alliesBack {
-  background-color: #2597E8;
+  /*background-color: #2597E8;*/
+  background-color: #B7695C;
 }
 
 .todoBack {
-  background-color: #28E8D9;
+  /*background-color: #28E8D9;*/
+  background-color: #CDBB79;
 }
 
 .mealBack {
-  background-color: #E89A12;
+  /*background-color: #E89A12;*/
+  background-color: #CDBB79;
 }
 
 .warBack {
-  background-color: #E83212;
+  /*background-color: #E83212;*/
+  background-color: #06425C;
 }
 
 .rockBack {
-  background-color: #7D38E8;
+  /*background-color: #7D38E8;*/
+  background-color: #814374;
 }
 
 .skills {
