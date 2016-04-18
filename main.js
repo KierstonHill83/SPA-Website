@@ -86,11 +86,17 @@ $(document).on('ready', function() {
   $('#mainDot').click(function() {
     $('.home-page').hide();
     $('.dot-page').show();
+    $('body').css('background-color', '#E4E81E');
   });
 
-  $('i').click(function() {
+  ////////////////////
+  /// Back Button ///
+  ///////////////////
+
+  $('.back-button').click(function() {
     $('.dot-page').hide();
     $('.home-page').show();
+    $('body').css('background-color', '#707570');
   });
   
 

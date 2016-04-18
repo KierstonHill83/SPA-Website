@@ -141,8 +141,47 @@ span {
   padding: 50px;
 }
 
-.dot-page {
-  background-color: #E4E81E;
+.project-title {
+  font-size: 6em;
+  color: black;
+  text-align: left;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.back-button {
+  margin-left: 85px;
+  margin-top: 65px;
+}
+
+.project-img1 {
+  height: 430px;
+  width: 435px;
+  border: 3px solid black;
+}
+
+.left-arrow {
+  float: left;
+  margin-top: 20%;
+  margin-right: 20%;
+}
+
+.left-arrow2 {
+  float: left;
+  margin-top: 20%;
+  margin-left: -20%;
+}
+
+.right-arrow {
+  float: right;
+  margin-top: 20%;
+  margin-left: 7%;
+}
+
+.right-arrow2 {
+  float: right;
+  margin-top: 20%;
+  margin-right: -13%;
 }
 
 /*@-webkit-keyframes hvr-bob {
