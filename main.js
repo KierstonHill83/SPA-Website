@@ -7,8 +7,9 @@ $(document).on('ready', function() {
   /// Hide all project pages ///
   //////////////////////////////
 
-  // Hide Dot & Boxes Game
   $('.dot-page').hide();
+  $('.translator-page').hide();
+  $('.allies-page').hide();
 
 
   ////////////////////////////////////////////
@@ -87,6 +88,48 @@ $(document).on('ready', function() {
     $('.home-page').hide();
     $('.dot-page').show();
     $('body').css('background-color', '#E4E81E');
+
+    $('.dot-img1').show();
+    $('.dot-img2').hide();
+    $('.dot-img3').hide();
+  });
+
+  // Show Bananas & Butterflies Page
+  $('#mainTranslator').click(function() {
+    $('.home-page').hide();
+    $('.translator-page').show();
+    $('body').css('background-color', '#34E842');
+
+    // $('.dot-img1').show();
+    // $('.dot-img2').hide();
+    // $('.dot-img3').hide();
+  });
+
+  // Show Active Allies
+  $('#mainAllies').click(function() {
+    $('.home-page').hide();
+    $('.allies-page').show();
+    $('body').css('background-color', '#2597E8');
+
+    // $('.dot-img1').show();
+    // $('.dot-img2').hide();
+    // $('.dot-img3').hide();
+  });
+
+  /////////////////////////////////
+  /// Show more project images ///
+  ////////////////////////////////
+
+  $('.dot-left').click(function() {
+    $('.dot-img1').hide();
+    $('.dot-img3').hide();
+    $('.dot-img2').show();
+  });
+
+  $('.dot-right').click(function() {
+    $('.dot-img1').hide();
+    $('.dot-img2').hide();
+    $('.dot-img3').show();
   });
 
   ////////////////////
@@ -95,10 +138,17 @@ $(document).on('ready', function() {
 
   $('.back-button').click(function() {
     $('.dot-page').hide();
+    $('.translator-page').hide();
+    $('.allies-page').hide();
     $('.home-page').show();
     $('body').css('background-color', '#707570');
   });
   
 
 });
+
+
+function dotsBoxes() {
+
+}
 
