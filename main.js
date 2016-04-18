@@ -1,8 +1,19 @@
 $(document).on('ready', function() {
   console.log("sanity check");
 
-  $('img').hide();
-  $('#myPic').show();
+  $('.projectImg').hide();
+
+  //////////////////////////////
+  /// Hide all project pages ///
+  //////////////////////////////
+
+  // Hide Dot & Boxes Game
+  $('.dot-page').hide();
+
+
+  ////////////////////////////////////////////
+  /// Show image on box with project name ///
+  ///////////////////////////////////////////
 
   // Dot & Boxes Game
   $('#mainDot').mouseenter(function() {
@@ -65,6 +76,21 @@ $(document).on('ready', function() {
 
   $('#mainRock').mouseleave(function() {
     $('#rock').hide();
+  });
+
+  //////////////////////////////////
+  /// Show project when clicked ///
+  /////////////////////////////////
+
+  // Show Dots & Boxes Game
+  $('#mainDot').click(function() {
+    $('.home-page').hide();
+    $('.dot-page').show();
+  });
+
+  $('i').click(function() {
+    $('.dot-page').hide();
+    $('.home-page').show();
   });
   
 

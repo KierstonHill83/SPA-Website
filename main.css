@@ -1,5 +1,4 @@
 body {
-  /*padding: 30px;*/
   /*font-family: 'Quicksand', sans-serif;*/
   font-family: 'Josefin Sans', sans-serif;
   font-size: 17px;
@@ -9,13 +8,23 @@ body {
 
 h1 {
   text-align: center;
-  /*font-family: 'Noto Sans', sans-serif;*/
   color: white;
 }
 
 h2 {
   font-size: 4em;
   padding-top: 17%;
+}
+
+span {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.portfolio-sub {
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
 
 .name {
@@ -26,6 +35,7 @@ h2 {
 
 .subHeader {
   font-size: 4em;
+  padding-top: 40px;
 }
 
 .about {
@@ -36,23 +46,17 @@ h2 {
 #myPic {
   float: left;
   height: 320px;
-  width: 260px;
+  width: 225px;
+  margin-right: 25px;
+  margin-bottom: 5px;
 }
 
-img {
-  height: 460px;
+.projectImg {
+  height: 420px;
   width: 100%;
   z-index: 5;
   position: absolute
 }
-
-/*.fa {
-  z-index: 3;
-  color: white;
-  position: absolute;
-  text-align: center;
-  font-size: 3em;
-}*/
 
 .back {
   position: relative;
@@ -60,13 +64,12 @@ img {
 }
 
 .projectRow {
-  margin-bottom: 459px;
+  margin-bottom: 419px;
 }
 
 .dotBack, .translatorBack, .alliesBack, .todoBack, .mealBack, .warBack, .rockBack {
   z-index: 1;
-  /*opacity: 0.7;*/
-  height: 460px;
+  height: 420px;
   width: 100%;
   position: absolute;
   padding: 10px;
@@ -101,6 +104,11 @@ img {
   background-color: #7D38E8;
 }
 
+.skills {
+  float: left;
+  font-size: 28px;
+}
+
 .modal-title {
   font-size: 80px;
   padding-top: 10px;
@@ -131,6 +139,10 @@ img {
 
 .copyright {
   padding: 50px;
+}
+
+.dot-page {
+  background-color: #E4E81E;
 }
 
 /*@-webkit-keyframes hvr-bob {
